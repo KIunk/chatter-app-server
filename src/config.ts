@@ -1,11 +1,11 @@
-import { load } from "jsr:@std/dotenv"
+import { load } from "jsr:@std/dotenv";
 
 load({
-    envPath: "./d.env",
-    export: true
-})
+  envPath: "./d.env",
+  export: true,
+});
 
 export const devConfig = {
-    secretKey: Deno.env.get("SECRET_KEY"),
-    port: 3000
-}
+  secretKey: Deno.env.get("SECRET_KEY"),
+  port: 3000,
+};

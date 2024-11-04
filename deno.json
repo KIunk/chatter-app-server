@@ -3,6 +3,5 @@
     "dev": "deno run -A --watch src/main.ts"
   },
   "imports": {
-
   }
 }
